@@ -34,5 +34,4 @@ jobs: # 定义一些工作
       - name: Run a multi-line script
         run: |
           TZ=CST-8 date
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          cat /etc/issue ; lscpu ;lsmem ; lsblk ; df -H
