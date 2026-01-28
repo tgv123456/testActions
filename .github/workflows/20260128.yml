@@ -33,6 +33,6 @@ jobs: # 定义一些工作
       # 运行多个命令
       - name: Run a multi-line script
         run: |
-          date
+          TZ=CST-8 date
           echo Add other actions to build,
           echo test, and deploy your project.
