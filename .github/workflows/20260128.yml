@@ -5,7 +5,7 @@ name: chennh test actions 20260128
 on: # 定义触发器
     workflow_dispatch: # 手动触发
     schedule: # 周期触发
-        - cron: '0 14 * * 5' # 利用cron实现时间,注意是UTC时间
+        - cron: '0 * * * *' # 利用cron实现时间,注意是UTC时间
 
     # 当有对main分支的push和pr提交时自动执行
     push:
